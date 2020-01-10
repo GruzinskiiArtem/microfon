@@ -15,7 +15,21 @@
 #more {
     background-color: #000000;
 }
-.social_network {
-    width: 80px;
-    height: 80px;
+.social_network_vk {
+    width: 100%;
+    height: 100%;
+}
+
+.social_network_youtube {
+    width: 100%;
+    height: 100%;
+}
+
+.social_network_instagram {
+    width: 100%;
+    height: 100%;
+}
+#main {
+    background-image: url("./../images/Rectangle.jpg");
+    height: 900px;
 }
