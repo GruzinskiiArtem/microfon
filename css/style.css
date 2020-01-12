@@ -8,12 +8,36 @@
     font-style: normal;
 }
 
-.microfon {
+img{
+    max-width: 100%;
+}
+
+body{
     font-family: 'Century Gothic Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 41px;
+    color: #000000;
+}
+
+h3{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 41px;
+    text-align: center;
+    color: #333333;
 }
 
 #more {
     background-color: #000000;
+}
+
+
+
+.bg-black{
+    background-color: black;
 }
 .social_network_vk {
     width: 120%;
@@ -51,12 +75,11 @@
 
 #form{
     background-image: url("./../images/Rectangle.jpg");
-    padding-top: 12%;
-    padding-bottom: 10%;
 }
 
-#form input{
+#form input, .input-group-text{
     background-color:transparent !important;
+    color: white;
 }
 
 .form-control::-webkit-input-placeholder { color: white; }
@@ -66,11 +89,308 @@
 .form-control::-ms-input-placeholder { color: white; }
 
 @media (max-width: 992px) {
-    .border-bottomps{
+    .border-bottom-md{
         border-bottom: 1px solid #dee2e6!important;
     }
 }
+
+.table thead th{
+    border: 0;
+}
+
+.strong {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1;
+}
+
+@media (max-width: 990px) and (min-width: 767px) {
+    .border-bottom-col{
+        border-bottom: 1px solid #dee2e6!important;
+    }
+    .table thead th, .table tbody td{
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    .display-3 {
+        font-size: 30px;
+    }
+    .strong{
+        font-weight: 300;
+        font-size: 12px;
+    }
+    #more p small{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 540px) and (max-width: 766px) {
+    .table thead th, .table tbody td{
+        font-size: 15px;
+        line-height: 1;
+    }
+    .display-3 {
+        font-size: 20px;
+    }
+    .strong {
+        font-size: 12px;
+    }
+    #more p small{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 539px) {
+    .table thead th, .table tbody td{
+        font-size: 10px;
+        line-height: 1;
+    }
+    .display-3 {
+        font-size: 15px;
+    }
+    .strong {
+        font-size: 8px;
+    }
+    #more p small{
+        font-size: 10px;
+    }
+}
+
+
+
 #advantages{
-    padding-top: 8%;
-    padding-bottom: 8%;
+
+}
+
+.element_logo {
+    width: 30%;
+    height: 42px;
+    display: block;
+    background: url(../images/logo.png) no-repeat center;
+    background-size: 190px 42px;
+}
+
+.element_mail {
+    width: 100%;
+    height: 65px;
+    display: block;
+    background: url(../images/mail.png) no-repeat center;
+    background-size: 75px 46px;
+}
+
+.element_working_hours {
+    width: 100%;
+    height: 65px;
+    display: block;
+    background: url(../images/working_hours.png) no-repeat center;
+    background-size: 58px 56px;
+}
+
+.element_phone {
+    width: 100%;
+    height: 65px;
+    display: block;
+    background: url(../images/phone.png) no-repeat center;
+    background-size: 52px 52px;
+}
+
+.element_location{
+    width: 100%;
+    height: 65px;
+    display: block;
+    background: url(../images/location.png) no-repeat center;
+    background-size: 48px 62px;
+}
+
+.round_black_icon_rehearsals{
+    width: 120px;
+    height: 120px;
+    background: url(../images/rehearsals.png) no-repeat center #000000;
+    border-radius: 50%;
+    background-size: 60%;
+}
+
+.round_black_icon_muses_school{
+    width: 120px;
+    height: 120px;
+    background: url(../images/muses_school.png) no-repeat center #000000;
+    border-radius: 50%;
+    background-size: 100%;
+}
+
+.round_black_icon_microfon{
+    width: 120px;
+    height: 120px;
+    background: url(../images/microfon.png) no-repeat center #000000;
+    border-radius: 50%;
+    background-size: 40%;
+}
+
+.element_acoustic_guitar{
+    width: 120px;
+    height: 120px;
+    display: block;
+    background: url(../images/acoustic_guitar.png) no-repeat center #000000;
+    border-radius: 50%;
+    background-size: 60%;
+}
+
+.element_acoustic_bass{
+    width: 120px;
+    height: 120px;
+    display: block;
+    background: url(../images/bass.png) no-repeat center #000000;
+    border-radius: 50%;
+    background-size: 60%;
+}
+
+.element_acoustic_keys{
+    width: 120px;
+    height: 120px;
+    display: block;
+    background: url(../images/keys.png) no-repeat center #000000;
+    border-radius: 50%;
+    background-size: 60%;
+}
+
+.element_acoustic_drums{
+    width: 120px;
+    height: 120px;
+    display: block;
+    background: url(../images/drums.png) no-repeat center #000000;
+    border-radius: 50%;
+    background-size: 60%;
+}
+
+.element_acoustic_electric_guitar{
+    width: 120px;
+    height: 120px;
+    display: block;
+    background: url(../images/electric_guitar.png) no-repeat center #000000;
+    border-radius: 50%;
+    background-size: 60%;
+}
+
+.element_instagram {
+    width: 100%;
+    height: 30px;
+    display: block;
+    background: url(../images/instagram.png) no-repeat center;
+    background-size: 30px 30px;
+}
+
+.element_vk {
+    width: 100%;
+    height: 30px;
+    display: block;
+    background: url(../images/vk.png) no-repeat center;
+    background-size: 43px 30px;
+}
+
+.element_youtube {
+    width: 100%;
+    height: 30px;
+    display: block;
+    background: url(../images/youtube.png) no-repeat center;
+    background-size: 37px 26px;
+}
+
+#advantages p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: #969595;
+}
+
+#advantages h6{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 15px;
+      color: #000000;
+}
+
+#we_offer p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+#choose_direction p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+.indent{
+    padding-top: 180px;
+    padding-bottom: 150px;
+}
+
+.nav-link.active{
+    background-color: #000000!important;
+    color: #FFFFFF!important;
+    border-color: #000000!important;
+}
+
+.nav-link.active:hover{
+    background-color: #FFFFFF!important;
+    color: #000000!important;
+    border-color: #FFFFFF!important;
+}
+
+.nav-tabs{
+    border-color: #000000!important;
+}
+.nav-tabs .nav-link:hover {
+    border-color: #000000!important;
+}
+
+.nav-item a{
+    color: #000000;
+}
+
+#cost_of_education p, #recording_studio p, #rehearsal_cost p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 44px;
+    text-align: center;
+    padding-bottom: 0.9rem;
+    color: #FFFFFF;
+}
+
+#cost_of_education h6, #recording_studio h6, #rehearsal_cost h6{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 68px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 1.9rem;
+}
+
+#acoustic_guitar_course p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 41px;
+    color: #000000;
+}
+
+#rehearsal_point h4{
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 41px;
+    color: #000000;
 }

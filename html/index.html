@@ -5,96 +5,83 @@
     <link rel="stylesheet" href="./../css/style.css" />
     <meta charset="UTF-8">
     <title>Title</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
-<body class="microfon">
+<body>
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <span class="navbar-brand element_logo mx-auto">
+            </span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item text-center ml-2">
+                        <a class="nav-link" href="#">музыкальная<br />школа</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link" href="#">репетиционная<br />точка</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-center" href="#">студия<br />звукозаписи</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-center" href="#">контакты</a>
+                    </li>
+                </ul>
 
-        <div class="container">
-        <img class="mx-auto"  src="./../images/logo.png">
-
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item text-center ml-2">
-                    <a class="nav-link" href="#">музыкальная<br />школа</a>
-                </li>
-                <li class="nav-item text-center">
-                    <a class="nav-link" href="#">репетиционная<br />точка</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link text-center" href="#">студия<br />звукозаписи</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link text-center" href="#">контакты</a>
-                </li>
-            </ul>
-            <div>
-                <div>
-                    <img style="width: 2.5%; height: 2.5%" src="./../images/location.png" />
-                    <samp class="">Минск, ул.Толбухина2</samp>
-                </div>
-                <img style="width: 1.7%; height: 1.7%" src="./../images/phone.png" />
-                <samp class="">
-                    <a>+375 29 336 44 99</a>
-                </samp>
             </div>
-        </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
 </header>
 
 <section id="main">
     <div class="container">
-        <div class="row justify-content-md-center  logo">
-            <img src="./../images/white_logo.png">
+        <div class="row justify-content-center logo">
+            <img class="img-fluid" src="./../images/white_logo.png">
         </div>
         <h4 class="text-uppercase text-center text-white">бесплатное пробное занятие</h4>
         <div class="row justify-content-center pb-4">
             <button type="button" class="btn btn-light btn-lg text-uppercase text-body mb-5 mt-3">записаться</button>
         </div>
         <div class="row justify-content-center">
-            <div class="col-2 col-lg-1">
+            <div class="col-3 col-md-2 col-lg-1">
                 <a href="https://instagram.com" target="_blank">
-                    <img class="social_network_instagram rounded mx-auto d-block" src="./../images/instagram.png">
+                    <span class="element_instagram"></span>
                 </a>
             </div>
-            <div class="col-2 col-lg-1">
+            <div class="col-3 col-md-2 col-lg-1">
                 <a href="https://vk.com" target="_blank">
-                    <img class="social_network_vk rounded mx-auto d-block" src="./../images/vk.png">
+                    <span class="element_vk"></span>
                 </a>
             </div>
-            <div class="col-auto col-lg-1">
+            <div class="col-3 col-md-2 col-lg-1">
                 <a href="https://youtube.com" target="_blank">
-                    <img class="social_network_youtube rounded mx-auto d-block" src="./../images/youtube.png">
+                    <span class="element_youtube"></span>
                 </a>
             </div>
         </div>
     </div>
 </section>
 
-<section>
-    <div class="container text-uppercase text-center pt-5 pb-5">
-        <h3 class="pt-5 pb-5">мы предлагаем</h3>
+<section id="we_offer" class="indent">
+    <div class="container text-uppercase text-center">
+        <h3 class="pb-5">мы предлагаем</h3>
         <div class="row justify-content-center pt-5 mb-5">
             <div class="col">
-                <div class="round_black_icon mx-auto">
-                    <img class="rounded mx-auto d-block" style=" width: 80%" src="./../images/muses_school.png">
-                </div>
-                <p>музыкальная<br />школа</p>
+                <div class="round_black_icon_muses_school mx-auto"></div>
+                <p class="pt-3">музыкальная<br />школа</p>
             </div>
             <div class="col">
-                <div class="round_black_icon mx-auto">
-                    <img class="rounded mx-auto d-block align-self-center" style=" width: 100%" src="./../images/rehearsals.png">
-                </div>
-                <p>репетиционная<br />точка</p>
+                <div class="round_black_icon_rehearsals mx-auto"></div>
+                <p class="pt-3">репетиционная<br />точка</p>
             </div>
             <div class="col">
-<!--                <img src="./../images/">-->
-                <p>студия<br />звукозаписи</p>
+                <div class="round_black_icon_microfon mx-auto"></div>
+                <p class="pt-3">студия<br />звукозаписи</p>
             </div>
         </div>
     </div>
@@ -106,43 +93,41 @@
             <div class="border-right border-left col-3 pt-5 pb-4">
                 <p class="mb-0"><small>более</small></p>
                 <p class="display-3 mb-1">6</p>
-                <p><strong>лет работы</strong></p>
+                <p class="strong">лет работы</p>
             </div>
             <div class="col-3 border-right pt-5 pb-4t">
                 <p class="mb-0"><small>более</small></p>
                 <p class="display-3 mb-1">1000</p>
-                <p><strong>учеников</strong></p>
+                <p class="strong">учеников</p>
             </div>
             <div class="col-3 border-right pt-5 pb-4t">
                 <p class="mb-0"><small>более</small></p>
                 <p class="display-3 mb-1">30</p>
-                <p><strong>живых<br />концертов</strong></p>
+                <p class="strong">живых<br />концертов</p>
             </div>
             <div class="col-3 border-right pt-5 pb-4">
                 <p class="mb-0"><small>более</small></p>
                 <p class="display-3 mb-1">50</p>
-                <p><strong>созданных<br />кавер-бэндов</strong></p>
+                <p class="strong">созданных<br />кавер-бэндов</p>
             </div>
         </div>
     </div>
 </section>
 
-<section id="advantages">
+<section id="advantages" class="indent">
     <div class="container ">
-        <h3 class="text-uppercase text-center">наши преимущества</h3>
+        <h3 class="text-uppercase text-center pb-5">наши преимущества</h3>
         <div class="row">
-            <biv class="col-6 col-lg-4 border-bottom pt-5 pb-3">
+            <biv class="col-12 col-md-6 col-lg-4 border-bottom pt-5 pb-3">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-12 col-md-3 pb-4">
                         <img class="rounded mx-auto d-block" src="./../images/locationpr.png">
                     </div>
-                    <div class="col-9">
+                    <div class="col-12 col-md-9">
                         <h6 class="text-uppercase">
-                            <small>
-                                удобнок месторасположение
-                            </small>
+                            удобнок месторасположение
                         </h6>
-                        <p class="text-secondary">
+                        <p>
                             Мы находимся в двух минутах
                             чодьбы от станции метро Парк
                             Челюскинцев
@@ -150,18 +135,16 @@
                     </div>
                 </div>
             </biv>
-            <div class="col-6 col-lg-4 border-bottom pt-5 pb-3">
+            <div class="col-12 col-md-6 col-lg-4 border-bottom pt-5 pb-3">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-12 col-md-3 pb-4">
                         <img class="rounded mx-auto d-block" src="./../images/time.png">
                     </div>
-                    <div class="col-9">
+                    <div class="col-12 col-md-9">
                         <h6 class="text-uppercase">
-                            <small>
-                                гибкий график занятий
-                            </small>
+                            гибкий график занятий
                         </h6>
-                        <p class="text-secondary">
+                        <p>
                             Возможность самостоятельно
                             выбирать подходящий график
                             проведения занятий
@@ -169,18 +152,16 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 col-lg-4 border-bottom pt-5 pb-3">
+            <div class="col-12 col-md-6 col-lg-4 border-bottom pt-5 pb-3">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-12 col-md-3 pb-4">
                         <img class="rounded mx-auto d-block" src="./../images/CONCERTS.png">
                     </div>
-                    <div class="col-9">
+                    <div class="col-12 col-md-9">
                         <h6 class="text-uppercase">
-                            <small>
-                                отчётные концерты для учеников
-                            </small>
+                            отчётные концерты для учеников
                         </h6>
-                        <p class="text-secondary">
+                        <p>
                             Проведение отчётных концертов
                             для всех учеников нашей
                             музыкальной школы
@@ -188,18 +169,16 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 col-lg-4 border-bottomps pt-5 pb-3">
+            <div class="col-12 col-md-6 col-lg-4 border-bottom-md pt-5 pb-3">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-12 col-md-3 pb-4">
                         <img class="rounded mx-auto d-block" src="./../images/group_or_ind_zan.png">
                     </div>
-                    <div class="col-9">
+                    <div class="col-12 col-md-9">
                         <h6 class="text-uppercase">
-                            <small>
-                                занятие индивидуально или паре
-                            </small>
+                            занятие индивидуально или паре
                         </h6>
-                        <p class="text-secondary">
+                        <p>
                             Возможность самостоятельного
                             выбора формата проведения
                             занятий
@@ -207,18 +186,16 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 col-lg-4 pt-5 pb-3">
+            <div class="col-12 col-md-6 col-lg-4 border-bottom-col pt-5 pb-3">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-12 col-md-3 pb-4">
                         <img class="rounded mx-auto d-block" src="./../images/children.png">
                     </div>
-                    <div class="col-9">
+                    <div class="col-12 col-md-9">
                         <h6 class="text-uppercase">
-                            <small>
-                                занятие для детей
-                            </small>
+                            занятие для детей
                         </h6>
-                        <p class="text-secondary">
+                        <p>
                             Помимо занятий для
                             взрослых, имеется
                             возможность занятий для
@@ -227,18 +204,16 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 col-lg-4 pt-5 pb-3">
+            <div class="col-12 col-md-6 col-lg-4 pt-5 pb-3">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-12 col-md-3 pb-4">
                         <img class="rounded mx-auto d-block" src="./../images/logo_microphone.png">
                     </div>
-                    <div class="col-9">
+                    <div class="col-12 col-md-9">
                         <h6 class="text-uppercase">
-                            <small>
-                                бесплатная запись для учеников
-                            </small>
+                            бесплатная запись для учеников
                         </h6>
-                        <p class="text-secondary">
+                        <p>
                             Наши ученики имеют
                             возможность бесплатной записи в
                             студии звукозаписи
@@ -250,7 +225,7 @@
     </div>
 </section>
 
-<section id="form">
+<section id="form" class="indent">
     <div class="container">
         <h3 class="text-uppercase text-white text-center pb-5">бесплатное пробное занятие</h3>
         <form class="pt-4">
@@ -270,42 +245,43 @@
         </form>
     </div>
 </section>
-<footer>
+
+<footer class="indent">
     <div class="container text-center">
-        <h3 class="text-uppercase">контакты и<br /> режим работы</h3>
-        <div>
-            <div class="row justify-content-center">
-                <div class="col-2">
-                    <img style="width: 20%" class="rounded mx-auto d-block" src="./../images/phone.png" />
-                    <div>
-                        <p class="">
-                            <a>+375 29 336 44 99</a><br /><a>+375 33 336 44 99</a><br /><a>+375 17 336 44 99</a>
-                        </p>
-                    </div>
+        <h3 class="text-uppercase pb-5">контакты и<br/> режим работы</h3>
+
+        <div class="row justify-content-center pt-5">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="element_phone"></div>
+                <div>
+                    <p class="">
+                        <a>+375 29 336 44 99</a><br/><a>+375 33 336 44 99</a><br/><a>+375 17 336 44 99</a>
+                    </p>
                 </div>
-                <div class="col-2">
-                    <img style="width: 15%" class="rounded mx-auto d-block" src="./../images/location.png" />
-                    <div>
-                        <address>Минск<br>ул. Толбухина2,<br>офис 13-5, 13-2</address>
-                    </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="element_location"></div>
+                <div>
+                    <address>Минск<br>ул. Толбухина2,<br>офис 13-5, 13-2</address>
                 </div>
-                <div class="col-2">
-                    <img style="width: 20%" class="rounded mx-auto d-block" src="./../images/mail.png" />
-                    <div>
-                        <p>info@microfon.by</p>
-                    </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="element_mail"></div>
+                <div>
+                    <p>info@microfon.by</p>
                 </div>
-                <div class="col-2">
-                    <img style="height: 5%" class="rounded mx-auto d-block" src=".../images/working_hours.png" />
-                    <div>
-                        <p>Пн-Пт 9:00-23:00<br />Сб-Вс 9:00-19:00</p>
-                    </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="element_working_hours"></div>
+                <div>
+                    <p>Пн-Пт 9:00-23:00<br/>Сб-Вс 9:00-19:00</p>
                 </div>
             </div>
         </div>
     </div>
 </footer>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2349.326585695008!2d27.612687350914392!3d53.92594153874274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcf035f5cbfab%3A0xb37dcb89e3c4d094!2z0YPQu9C40YbQsCDQotC-0LvQsdGD0YXQuNC90LAgMiwg0JzQuNC90YHQug!5e0!3m2!1sru!2sby!4v1578507680505!5m2!1sru!2sby" width="100%" height="30%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2349.326585695008!2d27.612687350914392!3d53.92594153874274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcf035f5cbfab%3A0xb37dcb89e3c4d094!2z0YPQu9C40YbQsCDQotC-0LvQsdGD0YXQuNC90LAgMiwg0JzQuNC90YHQug!5e0!3m2!1sru!2sby!4v1578507680505!5m2!1sru!2sby" width="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
