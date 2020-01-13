@@ -123,12 +123,18 @@ h3{
 
 }
 
-.element_logo {
-    width: 30%;
-    height: 42px;
-    display: block;
-    background: url(../images/logo.png) no-repeat center;
-    background-size: 190px 42px;
+.nav-info{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+}
+
+.nav-info address, .nav-info p{
+    margin-bottom: 0.3rem;
+    margin-top: 0.3rem;
 }
 
 .element_mail {
@@ -155,12 +161,27 @@ h3{
     background-size: 52px 52px;
 }
 
+.element_phone-info {
+    width: 20px;
+    height: 20px;
+    background: url(../images/phone.png) no-repeat center;
+    background-size: 20px 20px;
+}
+
 .element_location{
     width: 100%;
     height: 65px;
     display: block;
     background: url(../images/location.png) no-repeat center;
     background-size: 48px 62px;
+}
+
+.element_location-info{
+    width: 23px;
+    height: 25px;
+    display: block;
+    background: url(../images/location.png) no-repeat center;
+    background-size: 15px 20px;
 }
 
 .round_black_icon_rehearsals{
