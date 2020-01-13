@@ -34,7 +34,24 @@ h3{
     background-color: #000000;
 }
 
+.navbar a{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000!important;
+    box-sizing: border-box;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
+.active{
+    border-bottom: 2px solid black;
+}
+
+.navbar a:hover{
+    color: #969595!important;
+}
 
 .bg-black{
     background-color: black;
@@ -55,8 +72,6 @@ h3{
 }
 #main {
     background-image: url("./../images/Rectangle.jpg");
-    padding-top: 14%;
-    padding-bottom: 5%;
 }
 
 .logo{
@@ -103,61 +118,6 @@ h3{
     font-size: 24px;
     line-height: 1;
 }
-
-@media (max-width: 990px) and (min-width: 767px) {
-    .border-bottom-col{
-        border-bottom: 1px solid #dee2e6!important;
-    }
-    .table thead th, .table tbody td{
-        font-size: 20px;
-        line-height: 1;
-    }
-
-    .display-3 {
-        font-size: 30px;
-    }
-    .strong{
-        font-weight: 300;
-        font-size: 12px;
-    }
-    #more p small{
-        font-size: 12px;
-    }
-}
-
-@media (min-width: 540px) and (max-width: 766px) {
-    .table thead th, .table tbody td{
-        font-size: 15px;
-        line-height: 1;
-    }
-    .display-3 {
-        font-size: 20px;
-    }
-    .strong {
-        font-size: 12px;
-    }
-    #more p small{
-        font-size: 10px;
-    }
-}
-
-@media (max-width: 539px) {
-    .table thead th, .table tbody td{
-        font-size: 10px;
-        line-height: 1;
-    }
-    .display-3 {
-        font-size: 15px;
-    }
-    .strong {
-        font-size: 8px;
-    }
-    #more p small{
-        font-size: 10px;
-    }
-}
-
-
 
 #advantages{
 
@@ -280,6 +240,14 @@ h3{
     background-size: 30px 30px;
 }
 
+.element_instagram:hover {
+    width: 100%;
+    height: 30px;
+    display: block;
+    background: url(../images/b-instagram.png) no-repeat center;
+    background-size: 30px 30px;
+}
+
 .element_vk {
     width: 100%;
     height: 30px;
@@ -288,11 +256,27 @@ h3{
     background-size: 43px 30px;
 }
 
+.element_vk:hover {
+    width: 100%;
+    height: 30px;
+    display: block;
+    background: url(../images/b-vk.png) no-repeat center;
+    background-size: 43px 30px;
+}
+
 .element_youtube {
     width: 100%;
     height: 30px;
     display: block;
     background: url(../images/youtube.png) no-repeat center;
+    background-size: 37px 26px;
+}
+
+.element_youtube:hover {
+    width: 100%;
+    height: 30px;
+    display: block;
+    background: url(../images/b-youtube.png) no-repeat center;
     background-size: 37px 26px;
 }
 
@@ -354,10 +338,6 @@ h3{
     border-color: #000000!important;
 }
 
-.nav-item a{
-    color: #000000;
-}
-
 #cost_of_education p, #recording_studio p, #rehearsal_cost p{
     font-style: normal;
     font-weight: normal;
@@ -393,4 +373,84 @@ h3{
     font-size: 35px;
     line-height: 41px;
     color: #000000;
+}
+
+@media (max-width: 990px) and (min-width: 767px) {
+    .border-bottom-col{
+        border-bottom: 1px solid #dee2e6!important;
+    }
+    .table thead th, .table tbody td{
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    .display-3 {
+        font-size: 30px;
+    }
+    .strong{
+        font-weight: 300;
+        font-size: 12px;
+    }
+    #more p small{
+        font-size: 12px;
+    }
+
+    .indent{
+        padding-top: 150px;
+        padding-bottom: 110px;
+    }
+
+    h3{
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 540px) and (max-width: 766px) {
+    .table thead th, .table tbody td{
+        font-size: 15px;
+        line-height: 1;
+    }
+    .display-3 {
+        font-size: 20px;
+    }
+    .strong {
+        font-size: 12px;
+    }
+    #more p small{
+        font-size: 10px;
+    }
+
+    .indent{
+        padding-top: 110px;
+        padding-bottom: 90px;
+    }
+
+    h3{
+        font-size: 27px;
+    }
+}
+
+@media (max-width: 539px) {
+    .table thead th, .table tbody td{
+        font-size: 10px;
+        line-height: 1;
+    }
+    .display-3 {
+        font-size: 15px;
+    }
+    .strong {
+        font-size: 8px;
+    }
+    #more p small{
+        font-size: 10px;
+    }
+
+    .indent{
+        padding-top: 80px;
+        padding-bottom: 30px;
+    }
+
+    h3{
+        font-size: 23px;
+    }
 }
